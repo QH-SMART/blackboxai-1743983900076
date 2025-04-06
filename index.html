@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uber Clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .hero-bg {
+            background-image: url('https://images.pexels.com/photos/450597/pexels-photo-450597.jpeg');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="font-sans">
+    <!-- Navigation -->
+    <nav class="bg-black text-white p-4 flex justify-between items-center">
+        <div class="flex items-center space-x-6">
+            <span class="text-2xl font-bold">Uber</span>
+            <div class="hidden md:flex space-x-6">
+                <a href="#" class="hover:text-gray-300">Ride</a>
+                <a href="#" class="hover:text-gray-300">Drive</a>
+                <a href="#" class="hover:text-gray-300">Deliver</a>
+                <a href="#" class="hover:text-gray-300">Business</a>
+                <a href="#" class="hover:text-gray-300">More</a>
+            </div>
+        </div>
+        <div class="flex items-center space-x-4">
+            <a href="#" class="hover:text-gray-300"><i class="fas fa-question-circle"></i> Help</a>
+            <a href="#" class="hover:text-gray-300">Log in</a>
+            <button class="bg-white text-black px-4 py-2 rounded-full font-medium">Sign up</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-bg h-screen flex items-center">
+        <div class="container mx-auto px-4">
+            <div class="bg-white p-6 rounded-lg shadow-lg max-w-md">
+                <h1 class="text-3xl font-bold mb-4">Get in the driver's seat and get paid</h1>
+                <p class="mb-6">Drive on the platform with the largest network of active riders.</p>
+                <button class="bg-black text-white w-full py-3 rounded-full font-medium mb-4">Sign up to drive</button>
+                <a href="#" class="text-black underline">Learn more about driving and delivering</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8">Ways to earn with Uber</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <img src="https://via.placeholder.com/150" alt="Drive" class="mb-4">
+                    <h3 class="text-xl font-bold mb-2">Drive when you want</h3>
+                    <p class="mb-4">Drive on the platform with the largest network of active riders.</p>
+                    <a href="#" class="text-black font-medium">Learn more</a>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <img src="https://via.placeholder.com/150" alt="Deliver" class="mb-4">
+                    <h3 class="text-xl font-bold mb-2">Deliver with Uber Eats</h3>
+                    <p class="mb-4">Deliver food from your favorite restaurants.</p>
+                    <a href="#" class="text-black font-medium">Learn more</a>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <img src="https://via.placeholder.com/150" alt="Freight" class="mb-4">
+                    <h3 class="text-xl font-bold mb-2">Ship with Uber Freight</h3>
+                    <p class="mb-4">Ship freight with the power of Uber's technology.</p>
+                    <a href="#" class="text-black font-medium">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="font-bold mb-4">Company</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:underline">About us</a></li>
+                        <li><a href="#" class="hover:underline">Our offerings</a></li>
+                        <li><a href="#" class="hover:underline">Newsroom</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold mb-4">Products</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:underline">Ride</a></li>
+                        <li><a href="#" class="hover:underline">Drive</a></li>
+                        <li><a href="#" class="hover:underline">Deliver</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold mb-4">Global citizenship</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:underline">Safety</a></li>
+                        <li><a href="#" class="hover:underline">Diversity and Inclusion</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold mb-4">Social</h3>
+                    <div class="flex space-x-4">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 flex justify-between">
+                <span>© 2023 Uber Technologies Inc.</span>
+                <div class="flex space-x-4">
+                    <a href="#" class="hover:underline">Privacy</a>
+                    <a href="#" class="hover:underline">Terms</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
